@@ -1,0 +1,9 @@
+pip install jupyterlab
+
+python -m pip install --upgrade pip
+pip install ipykernel
+python -m ipykernel install --user --name=tfad
+
+pip install tensorflow==2.10.0 opencv-python mediapipe sklearn matplotlib scikit-learn 
+
+pip install -U scikit-learn
